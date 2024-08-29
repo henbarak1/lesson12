@@ -1,0 +1,59 @@
+.container{
+    height: 30vh;
+    width: 40vw;
+    display: grid;
+    grid-template-columns: repeat(6,1fr) ;
+    grid-template-rows: repeat(3,1fr);
+    gap: 2vh 2vw;
+}
+.red{
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    grid-column-start:1 ;
+    grid-column-end:4 ;
+background-color: red;
+border-radius: 9px;
+
+}
+.blue{
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    grid-column-start:4 ;
+    grid-column-end:7 ;
+    background-color: blue;
+    border-radius: 9px;
+
+}
+.green{
+    grid-row-start: 2;
+    grid-row-end:3 ;
+
+    grid-column-start:1 ;
+    grid-column-end: 3;
+    background-color: green;
+    border-radius: 9px;
+
+}
+.purple{
+    grid-row-start: 2;
+    grid-row-end:3 ;
+
+    grid-column-start:3 ;
+    grid-column-end: 7;
+    background-color: rgb(109, 0, 128);
+    border-radius: 9px;
+
+}
+.yellow{
+    grid-row-start: 3;
+    grid-row-end:4 ;
+
+    grid-column-start:1 ;
+    grid-column-end: 7;
+    background-color: yellow;
+    border-radius: 9px;
+
+}
+

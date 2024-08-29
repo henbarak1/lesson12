@@ -1,0 +1,59 @@
+.container{
+    height: 50vh;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: repeat(8,1fr) ;
+    grid-template-rows: repeat(6,1fr);
+    gap: 2vh 2vw;
+}
+.red{
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    grid-column-start:1 ;
+    grid-column-end:9 ;
+background-color: red;
+border-radius: 9px;
+
+}
+.blue{
+    grid-row-start: 3;
+    grid-row-end: 7;
+
+    grid-column-start:1 ;
+    grid-column-end:5 ;
+    background-color: blue;
+    border-radius: 9px;
+
+}
+.green{
+     grid-row-start: 3;
+    grid-row-end:5 ;
+
+    grid-column-start:5 ;
+    grid-column-end: 9; 
+    background-color: green;
+    border-radius: 9px;
+
+}
+.purple1{
+    grid-row-start: 5;
+    grid-row-end: 7;
+
+    grid-column-start:5 ;
+    grid-column-end:7;
+    background-color: rgb(109, 0, 128);
+    border-radius: 9px;
+
+}
+.purple2{
+    grid-row-start: 5;
+    grid-row-end:7 ;
+
+    grid-column-start:7 ;
+    grid-column-end: 9;
+    background-color: rgb(109, 0, 128);
+    border-radius: 9px;
+
+}
+
